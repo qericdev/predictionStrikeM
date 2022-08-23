@@ -1,0 +1,32 @@
+
+.colornav {
+    background-color: #12133D;
+}
+
+.linkButton {
+    padding-left: 1em !important;
+    padding-right: 1em !important;
+}
+
+.navLink {
+    padding: 0 1.5em !important;
+}
+
+@media (max-width: 991px) 
+{
+    .navLink {
+        text-align: center;
+    }
+
+    .navLink {
+        padding: 0.5em 0 !important;
+    }
+
+    .linkButton {
+        margin: 0;
+        display: block !important;
+        margin: 1em auto;
+        width: 50%;
+    }
+   
+}

@@ -1,0 +1,61 @@
+.container { 
+    width: 296px;
+    min-height: 180px;
+    margin: 2em 2em;
+    padding: 1em 1em;
+    background: rgb(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.local {
+    text-align: center;
+}
+
+.local > img {
+    width: 65px;
+}
+
+.hour {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.visitant { 
+    text-align: center;
+}
+
+.visitant > img {
+    width: 65px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom > button {
+    background-color: white;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border-width: 0;
+    color: #12133D;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+

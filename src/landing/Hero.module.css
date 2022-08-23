@@ -1,0 +1,49 @@
+.background {
+    background-color: #12133D;
+    color: white;
+}
+
+.leftText {
+    padding-left: 7em !important;
+}
+
+.leftText > h1 {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+
+.leftText > p {
+    margin: 0.5em 0 !important;
+    padding: 0 !important;
+}
+
+.buttonsBox {
+    margin-top: 1em !important;
+}
+
+@media (max-width: 991px) {
+    .rightImage {
+        margin: 0 auto;
+    }
+    .leftText {
+        text-align: center;
+        margin: 0em auto !important;
+        padding: 0em 1em !important;
+    }
+    .leftText > h1 {
+        margin: 0!important;
+        padding: 1em 0 !important;
+    }
+    .leftText > p {
+        padding: 1em 0 !important;
+    }
+    .buttonsBox {
+        display: flex;
+        flex-direction: column;
+        margin: 0em auto;
+        width: 60%;
+    }
+    .buttonsBox > button {
+        margin: 0.3em 0 !important;
+    }
+}

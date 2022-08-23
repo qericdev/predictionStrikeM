@@ -1,0 +1,31 @@
+.container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 1px solid gray;
+    margin: 3em auto 0 auto;
+    padding: 3em 2em 0.5em 2em;
+}
+
+.container > h1 {
+    margin: 1em 1em;
+    font-size: 1.5rem;
+}
+
+.email {
+    font-weight: 700;
+    font-size: 0.8rem;
+}
+
+.images > img {
+    margin: 1em 1em;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .container {
+        text-align: center;
+    }
+}
